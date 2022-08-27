@@ -13,7 +13,7 @@ public class DemoApplication {
 	public static Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 	
 	@PostConstruct
-	public void init() {
+	public init() {
 		logger.info("Application Started...");
 	}
 
