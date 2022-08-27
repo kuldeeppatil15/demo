@@ -16,6 +16,7 @@ class DemoApplicationTests {
 	void contextLoads() {
 		logger.info("Test initiated...");
 		assertEquals(true, true);
+		logger.info("Test successfully executed...");
 	}
 
 }
