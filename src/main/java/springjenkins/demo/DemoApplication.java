@@ -20,6 +20,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		logger.info("Application Executed...");
 		SpringApplication.run(DemoApplication.class, args);
+		logger.info("Application runs successfully...");
 	}
 
 }
